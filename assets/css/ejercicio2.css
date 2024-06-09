@@ -1,0 +1,53 @@
+/* .imagen{
+    width: 200px;
+    height: 200px;
+}
+.git{
+    width: 300px;
+
+} */
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+input {
+  font-size: 20px;
+  text-align: right;
+}
+
+.stickers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 175px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+}
+button {
+  font-size: 20px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#mensaje {
+  text-align: center;
+  border: 2px dashed;
+  width: 60%;
+  margin-left: 20%;
+  height: 80px;
+  align-content: center;
+}

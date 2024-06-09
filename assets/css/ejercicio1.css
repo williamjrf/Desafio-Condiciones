@@ -1,0 +1,9 @@
+#imgPerro{
+width: 400px;
+height: 300px;
+cursor: pointer;
+}
+
+.bordeRojo{
+    border: 2px solid red;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/ejercicio2.css">
+    <title>Tienda de Stickers</title>
+</head>
+
+<body>
+
+    <h1>Formulario Stickers</h1>
+    <br>
+
+    <h2>
+        Puedes llevar hasta 10 stickers en total
+    </h2>
+    <br>
+
+
+
+    <div class="stickers">
+        <div>
+            <img src="../assets/images/sticker1.png" />
+            <input id="inputSticker1" type="number" min="0" max="10" onkeypress="evitarNegativos(this)" />
+        </div>
+        <div>
+            <img src="../assets/images/sticker2.png" />
+            <input id="inputSticker2" type="number" min="0" max="10" onkeypress="evitarNegativos(this)" />
+        </div>
+        <div>
+            <img src=" ../assets/images/sticker3.png" />
+            <input id="inputSticker3" type="number" min="0" max="10" onkeypress="evitarNegativos(this)" />
+        </div>
+    </div>
+    <div class="button-center">
+        <button onclick="totalizar()">Verificar</button>
+    </div>
+    <br>
+    <p id="mensaje"></p>
+    <script src="../assets/js/ejercicio2.js"></script>
+</body>
+
+</html>
